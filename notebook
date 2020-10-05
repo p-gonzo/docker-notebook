@@ -1,0 +1,6 @@
+#!/bin/bash
+
+WORKING_DIR=$(dirname "$(readlink -f "$0")"})
+
+docker build -t jupyter-notebook $WORKING_DIR
+docker run -v "$WORKING_DIR":/usr/src/app -p 8080:8080 --rm --name running-notebook jupyter-notebook  
