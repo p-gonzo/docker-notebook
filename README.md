@@ -1,6 +1,6 @@
 # Dockerized Jupyter Notebooks
 
-Start a containerized Jupyter Notebook instance anywhere, simply by adding the `notebook` script to your PATH.
+Start a containerized Jupyter Notebook instance anywhere, simply by linking the `notebook` script to your PATH.
 
 ## Setup
 
