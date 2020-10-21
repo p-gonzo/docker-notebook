@@ -5,8 +5,12 @@ Start a containerized Jupyter Notebook instance anywhere, simply by adding the `
 ## Setup
 
 - Clone this repository
-- Create the **notebooks** directory: `mkdir notebooks`
 - Add `notebook` to your PATH
     - eg: Add to ~/bin: `ln -s $PWD/notebook $HOME/bin/notebook`
-- Start using `notebook` command
-- Persistant storage will be in the `notebooks` directory
+
+## Running 
+- Use `notebook` command
+
+## Storage
+
+- Persistent storage in the `docker-notebook/notebooks` directory
